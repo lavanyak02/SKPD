@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    background-color:#ffffff ; 
+    color: #262626;
+}
+body{
+    margin:30px;
+}
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    line-height: 2em;
+    text-decoration: none;
+    nav-right: auto;
+    padding:15px;
+    font-weight: bold;
+}
+.headers-background{
+    margin-top: -30px;
+}
+.mlclass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 160px;
+    width: 350px;
+    height: 430px;
+}
+.content{
+    margin-left: -104px;
+    margin-top: 110px;
+    letter-spacing: .4px;
+    font-family: 'Poppins';
+}
+.content h3{
+    font-weight:800 ;
+    
+}
+.content p{
+    font-weight:200 ;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to right,rgba(241, 229, 57, 0.87), rgb(241, 95, 85), rgb(245, 122, 153));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    line-height: 2.2em;
+  }
+.content img{
+    margin-top: -270px;
+    margin-left:750px;
+    width:300px;
+    height:330px;
+    background-attachment: unset;
+    backface-visibility: hidden;
+}
+.content li{
+    transition-duration: 2s;
+}
+.content  button{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight:700;
+    width: 120px;
+    height:40px;
+    align-content: center;
+    background-color: #262626; ;
+    color:#FFFFFF;
+    /*-border: 0px;
+    box-shadow: -4px 3px #ffda62,-3px 3px  #ec7a57;*/
+    transition: 0.1s ease-in;
+    box-shadow: -4px 2px 4px #ffe488, /*-2px 3px 0px 1px #ff8080, */-2px 3px 0px #e00808, 5px 5px 5px 5px rgb(0 0 0 / 0%)
+}
+.content li h4{
+    margin-left:38px;
+    margin-top:30px;
+    color: #262626;
+    font-weight:bolder;
+    font-size: 18px;
+}
+.content li{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    cursor: pointer;
+}
+.content li button:hover{
+    color:black;
+    background-color: white;
+    box-shadow: grey ;
+}
+.content li h4:hover,i:hover{
+    color:cadetblue
+}
